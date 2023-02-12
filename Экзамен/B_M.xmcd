@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest d8adb75f5bbd4c62f316c7c9e297308f?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.1</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>Анна</author>
+			<company>Parametric Technology Corporation</company>
+			<keywords/>
+			<revisedBy>UVidimina@gmail.com</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>2</revision>
+			<documentID>8F4426E1-EC26-4074-B3CA-897722C9DE98</documentID>
+			<versionID>2F051BEC-7BC1-436C-89EA-0E5628ABF373</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 2">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="italic" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 3">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Paragraph">
+						<blockAttr margin-left="0" margin-right="0" text-indent="21" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Indent">
+						<blockAttr margin-left="108" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="24" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Subtitle" base-style="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="18" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="narrow-dot" derivative="derivative" literal-subscript="large" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="current" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results numeric-only="true">
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="9" orientation="portrait" print-single-page-width="false" page-width="595.5" page-height="842.25">
+				<margins left="86.4" right="86.4" top="86.4" bottom="86.4"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="ru" UI="ru"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="true" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="0">
+				<compatibility multiple-assignment="MC12" local-assignment="MC12"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="cm"/>
+			<plotTemplate>
+				<xy item-idref="1"/>
+			</plotTemplate>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="false" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="23" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="3" left="90" top="27" width="126" height="12.75" align-x="107.25" align-y="36" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">p1</ml:id>
+					<ml:apply>
+						<ml:id xml:space="preserve">READPRN</ml:id>
+						<ml:str xml:space="preserve">Box-M.txt</ml:str>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="2"/>
+		</region>
+		<region region-id="18" left="30" top="100.5" width="146.25" height="269.25" align-x="45.75" align-y="234" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">p1</ml:id>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<ml:matrix rows="768" cols="2">
+							<ml:real>1</ml:real>
+							<ml:real>3</ml:real>
+							<ml:real>4</ml:real>
+							<ml:real>6</ml:real>
+							<ml:real>8</ml:real>
+							<ml:real>9</ml:real>
+							<ml:real>10</ml:real>
+							<ml:real>11</ml:real>
+							<ml:real>13</ml:real>
+							<ml:real>14</ml:real>
+							<ml:real>15</ml:real>
+							<ml:real>16</ml:real>
+							<ml:real>18</ml:real>
+							<ml:real>19</ml:real>
+							<ml:real>21</ml:real>
+							<ml:real>22</ml:real>
+							<ml:real>23</ml:real>
+							<ml:real>25</ml:real>
+							<ml:real>26</ml:real>
+							<ml:real>27</ml:real>
+							<ml:real>28</ml:real>
+							<ml:real>30</ml:real>
+							<ml:real>31</ml:real>
+							<ml:real>32</ml:real>
+							<ml:real>33</ml:real>
+							<ml:real>35</ml:real>
+							<ml:real>37</ml:real>
+							<ml:real>38</ml:real>
+							<ml:real>39</ml:real>
+							<ml:real>42</ml:real>
+							<ml:real>44</ml:real>
+							<ml:real>45</ml:real>
+							<ml:real>46</ml:real>
+							<ml:real>47</ml:real>
+							<ml:real>48</ml:real>
+							<ml:real>51</ml:real>
+							<ml:real>52</ml:real>
+							<ml:real>54</ml:real>
+							<ml:real>56</ml:real>
+							<ml:real>58</ml:real>
+							<ml:real>59</ml:real>
+							<ml:real>61</ml:real>
+							<ml:real>62</ml:real>
+							<ml:real>63</ml:real>
+							<ml:real>64</ml:real>
+							<ml:real>65</ml:real>
+							<ml:real>67</ml:real>
+							<ml:real>69</ml:real>
+							<ml:real>70</ml:real>
+							<ml:real>71</ml:real>
+							<ml:real>72</ml:real>
+							<ml:real>73</ml:real>
+							<ml:real>74</ml:real>
+							<ml:real>75</ml:real>
+							<ml:real>76</ml:real>
+							<ml:real>77</ml:real>
+							<ml:real>79</ml:real>
+							<ml:real>80</ml:real>
+							<ml:real>81</ml:real>
+							<ml:real>82</ml:real>
+							<ml:real>85</ml:real>
+							<ml:real>86</ml:real>
+							<ml:real>87</ml:real>
+							<ml:real>88</ml:real>
+							<ml:real>89</ml:real>
+							<ml:real>90</ml:real>
+							<ml:real>91</ml:real>
+							<ml:real>92</ml:real>
+							<ml:real>93</ml:real>
+							<ml:real>94</ml:real>
+							<ml:real>96</ml:real>
+							<ml:real>97</ml:real>
+							<ml:real>99</ml:real>
+							<ml:real>100</ml:real>
+							<ml:real>101</ml:real>
+							<ml:real>102</ml:real>
+							<ml:real>103</ml:real>
+							<ml:real>104</ml:real>
+							<ml:real>105</ml:real>
+							<ml:real>106</ml:real>
+							<ml:real>107</ml:real>
+							<ml:real>108</ml:real>
+							<ml:real>109</ml:real>
+							<ml:real>110</ml:real>
+							<ml:real>111</ml:real>
+							<ml:real>112</ml:real>
+							<ml:real>113</ml:real>
+							<ml:real>114</ml:real>
+							<ml:real>115</ml:real>
+							<ml:real>117</ml:real>
+							<ml:real>118</ml:real>
+							<ml:real>119</ml:real>
+							<ml:real>120</ml:real>
+							<ml:real>121</ml:real>
+							<ml:real>122</ml:real>
+							<ml:real>123</ml:real>
+							<ml:real>125</ml:real>
+							<ml:real>126</ml:real>
+							<ml:real>127</ml:real>
+							<ml:real>128</ml:real>
+							<ml:real>130</ml:real>
+							<ml:real>131</ml:real>
+							<ml:real>132</ml:real>
+							<ml:real>133</ml:real>
+							<ml:real>134</ml:real>
+							<ml:real>135</ml:real>
+							<ml:real>136</ml:real>
+							<ml:real>137</ml:real>
+							<ml:real>138</ml:real>
+							<ml:real>139</ml:real>
+							<ml:real>141</ml:real>
+							<ml:real>142</ml:real>
+							<ml:real>143</ml:real>
+							<ml:real>144</ml:real>
+							<ml:real>145</ml:real>
+							<ml:real>146</ml:real>
+							<ml:real>147</ml:real>
+							<ml:real>150</ml:real>
+							<ml:real>151</ml:real>
+							<ml:real>152</ml:real>
+							<ml:real>153</ml:real>
+							<ml:real>154</ml:real>
+							<ml:real>155</ml:real>
+							<ml:real>156</ml:real>
+							<ml:real>157</ml:real>
+							<ml:real>158</ml:real>
+							<ml:real>160</ml:real>
+							<ml:real>161</ml:real>
+							<ml:real>162</ml:real>
+							<ml:real>163</ml:real>
+							<ml:real>164</ml:real>
+							<ml:real>165</ml:real>
+							<ml:real>166</ml:real>
+							<ml:real>167</ml:real>
+							<ml:real>168</ml:real>
+							<ml:real>169</ml:real>
+							<ml:real>171</ml:real>
+							<ml:real>172</ml:real>
+							<ml:real>173</ml:real>
+							<ml:real>174</ml:real>
+							<ml:real>175</ml:real>
+							<ml:real>176</ml:real>
+							<ml:real>178</ml:real>
+							<ml:real>179</ml:real>
+							<ml:real>180</ml:real>
+							<ml:real>182</ml:real>
+							<ml:real>184</ml:real>
+							<ml:real>185</ml:real>
+							<ml:real>186</ml:real>
+							<ml:real>187</ml:real>
+							<ml:real>188</ml:real>
+							<ml:real>189</ml:real>
+							<ml:real>190</ml:real>
+							<ml:real>191</ml:real>
+							<ml:real>192</ml:real>
+							<ml:real>193</ml:real>
+							<ml:real>194</ml:real>
+							<ml:real>195</ml:real>
+							<ml:real>196</ml:real>
+							<ml:real>198</ml:real>
+							<ml:real>200</ml:real>
+							<ml:real>202</ml:real>
+							<ml:real>203</ml:real>
+							<ml:real>204</ml:real>
+							<ml:real>205</ml:real>
+							<ml:real>206</ml:real>
+							<ml:real>207</ml:real>
+							<ml:real>208</ml:real>
+							<ml:real>210</ml:real>
+							<ml:real>211</ml:real>
+							<ml:real>212</ml:real>
+							<ml:real>213</ml:real>
+							<ml:real>214</ml:real>
+							<ml:real>216</ml:real>
+							<ml:real>217</ml:real>
+							<ml:real>218</ml:real>
+							<ml:real>219</ml:real>
+							<ml:real>220</ml:real>
+							<ml:real>221</ml:real>
+							<ml:real>222</ml:real>
+							<ml:real>223</ml:real>
+							<ml:real>224</ml:real>
+							<ml:real>225</ml:real>
+							<ml:real>227</ml:real>
+							<ml:real>228</ml:real>
+							<ml:real>229</ml:real>
+							<ml:real>230</ml:real>
+							<ml:real>231</ml:real>
+							<ml:real>232</ml:real>
+							<ml:real>233</ml:real>
+							<ml:real>235</ml:real>
+							<ml:real>236</ml:real>
+							<ml:real>237</ml:real>
+							<ml:real>239</ml:real>
+							<ml:real>241</ml:real>
+							<ml:real>242</ml:real>
+							<ml:real>243</ml:real>
+							<ml:real>244</ml:real>
+							<ml:real>245</ml:real>
+							<ml:real>246</ml:real>
+							<ml:real>248</ml:real>
+							<ml:real>251</ml:real>
+							<ml:real>252</ml:real>
+							<ml:real>253</ml:real>
+							<ml:real>254</ml:real>
+							<ml:real>255</ml:real>
+							<ml:real>256</ml:real>
+							<ml:real>257</ml:real>
+							<ml:real>258</ml:real>
+							<ml:real>259</ml:real>
+							<ml:real>261</ml:real>
+							<ml:real>262</ml:real>
+							<ml:real>263</ml:real>
+							<ml:real>264</ml:real>
+							<ml:real>265</ml:real>
+							<ml:real>268</ml:real>
+							<ml:real>270</ml:real>
+							<ml:real>271</ml:real>
+							<ml:real>272</ml:real>
+							<ml:real>273</ml:real>
+							<ml:real>274</ml:real>
+							<ml:real>275</ml:real>
+							<ml:real>276</ml:real>
+							<ml:real>278</ml:real>
+							<ml:real>280</ml:real>
+							<ml:real>281</ml:real>
+							<ml:real>282</ml:real>
+							<ml:real>283</ml:real>
+							<ml:real>284</ml:real>
+							<ml:real>287</ml:real>
+							<ml:real>289</ml:real>
+							<ml:real>290</ml:real>
+							<ml:real>293</ml:real>
+							<ml:real>294</ml:real>
+							<ml:real>295</ml:real>
+							<ml:real>296</ml:real>
+							<ml:real>297</ml:real>
+							<ml:real>298</ml:real>
+							<ml:real>302</ml:real>
+							<ml:real>303</ml:real>
+							<ml:real>305</ml:real>
+							<ml:real>306</ml:real>
+							<ml:real>308</ml:real>
+							<ml:real>309</ml:real>
+							<ml:real>310</ml:real>
+							<ml:real>311</ml:real>
+							<ml:real>312</ml:real>
+							<ml:real>313</ml:real>
+							<ml:real>314</ml:real>
+							<ml:real>316</ml:real>
+							<ml:real>318</ml:real>
+							<ml:real>319</ml:real>
+							<ml:real>320</ml:real>
+							<ml:real>321</ml:real>
+							<ml:real>323</ml:real>
+							<ml:real>324</ml:real>
+							<ml:real>325</ml:real>
+							<ml:real>326</ml:real>
+							<ml:real>327</ml:real>
+							<ml:real>328</ml:real>
+							<ml:real>329</ml:real>
+							<ml:real>330</ml:real>
+							<ml:real>331</ml:real>
+							<ml:real>332</ml:real>
+							<ml:real>333</ml:real>
+							<ml:real>334</ml:real>
+							<ml:real>335</ml:real>
+							<ml:real>336</ml:real>
+							<ml:real>337</ml:real>
+							<ml:real>339</ml:real>
+							<ml:real>341</ml:real>
+							<ml:real>343</ml:real>
+							<ml:real>344</ml:real>
+							<ml:real>345</ml:real>
+							<ml:real>346</ml:real>
+							<ml:real>347</ml:real>
+							<ml:real>348</ml:real>
+							<ml:real>351</ml:real>
+							<ml:real>352</ml:real>
+							<ml:real>354</ml:real>
+							<ml:real>355</ml:real>
+							<ml:real>356</ml:real>
+							<ml:real>357</ml:real>
+							<ml:real>358</ml:real>
+							<ml:real>359</ml:real>
+							<ml:real>362</ml:real>
+							<ml:real>363</ml:real>
+							<ml:real>364</ml:real>
+							<ml:real>365</ml:real>
+							<ml:real>366</ml:real>
+							<ml:real>367</ml:real>
+							<ml:real>368</ml:real>
+							<ml:real>370</ml:real>
+							<ml:real>371</ml:real>
+							<ml:real>372</ml:real>
+							<ml:real>373</ml:real>
+							<ml:real>374</ml:real>
+							<ml:real>375</ml:real>
+							<ml:real>376</ml:real>
+							<ml:real>377</ml:real>
+							<ml:real>378</ml:real>
+							<ml:real>379</ml:real>
+							<ml:real>381</ml:real>
+							<ml:real>382</ml:real>
+							<ml:real>383</ml:real>
+							<ml:real>384</ml:real>
+							<ml:real>385</ml:real>
+							<ml:real>386</ml:real>
+							<ml:real>387</ml:real>
+							<ml:real>388</ml:real>
+							<ml:real>389</ml:real>
+							<ml:real>390</ml:real>
+							<ml:real>392</ml:real>
+							<ml:real>394</ml:real>
+							<ml:real>395</ml:real>
+							<ml:real>396</ml:real>
+							<ml:real>397</ml:real>
+							<ml:real>398</ml:real>
+							<ml:real>399</ml:real>
+							<ml:real>400</ml:real>
+							<ml:real>401</ml:real>
+							<ml:real>402</ml:real>
+							<ml:real>403</ml:real>
+							<ml:real>404</ml:real>
+							<ml:real>405</ml:real>
+							<ml:real>407</ml:real>
+							<ml:real>408</ml:real>
+							<ml:real>410</ml:real>
+							<ml:real>411</ml:real>
+							<ml:real>412</ml:real>
+							<ml:real>413</ml:real>
+							<ml:real>414</ml:real>
+							<ml:real>416</ml:real>
+							<ml:real>419</ml:real>
+							<ml:real>420</ml:real>
+							<ml:real>421</ml:real>
+							<ml:real>422</ml:real>
+							<ml:real>423</ml:real>
+							<ml:real>425</ml:real>
+							<ml:real>426</ml:real>
+							<ml:real>427</ml:real>
+							<ml:real>428</ml:real>
+							<ml:real>429</ml:real>
+							<ml:real>430</ml:real>
+							<ml:real>431</ml:real>
+							<ml:real>432</ml:real>
+							<ml:real>433</ml:real>
+							<ml:real>434</ml:real>
+							<ml:real>435</ml:real>
+							<ml:real>436</ml:real>
+							<ml:real>437</ml:real>
+							<ml:real>438</ml:real>
+							<ml:real>439</ml:real>
+							<ml:real>440</ml:real>
+							<ml:real>443</ml:real>
+							<ml:real>444</ml:real>
+							<ml:real>445</ml:real>
+							<ml:real>446</ml:real>
+							<ml:real>450</ml:real>
+							<ml:real>451</ml:real>
+							<ml:real>453</ml:real>
+							<ml:real>454</ml:real>
+							<ml:real>456</ml:real>
+							<ml:real>457</ml:real>
+							<ml:real>458</ml:real>
+							<ml:real>461</ml:real>
+							<ml:real>462</ml:real>
+							<ml:real>463</ml:real>
+							<ml:real>464</ml:real>
+							<ml:real>466</ml:real>
+							<ml:real>467</ml:real>
+							<ml:real>470</ml:real>
+							<ml:real>471</ml:real>
+							<ml:real>472</ml:real>
+							<ml:real>476</ml:real>
+							<ml:real>477</ml:real>
+							<ml:real>478</ml:real>
+							<ml:real>479</ml:real>
+							<ml:real>480</ml:real>
+							<ml:real>481</ml:real>
+							<ml:real>482</ml:real>
+							<ml:real>484</ml:real>
+							<ml:real>485</ml:real>
+							<ml:real>486</ml:real>
+							<ml:real>487</ml:real>
+							<ml:real>492</ml:real>
+							<ml:real>494</ml:real>
+							<ml:real>495</ml:real>
+							<ml:real>496</ml:real>
+							<ml:real>497</ml:real>
+							<ml:real>498</ml:real>
+							<ml:real>499</ml:real>
+							<ml:real>500</ml:real>
+							<ml:real>501</ml:real>
+							<ml:real>502</ml:real>
+							<ml:real>506</ml:real>
+							<ml:real>507</ml:real>
+							<ml:real>508</ml:real>
+							<ml:real>509</ml:real>
+							<ml:real>510</ml:real>
+							<ml:real>511</ml:real>
+							<ml:real>512</ml:real>
+							<ml:real>513</ml:real>
+							<ml:real>517</ml:real>
+							<ml:real>518</ml:real>
+							<ml:real>520</ml:real>
+							<ml:real>521</ml:real>
+							<ml:real>523</ml:real>
+							<ml:real>524</ml:real>
+							<ml:real>526</ml:real>
+							<ml:real>527</ml:real>
+							<ml:real>529</ml:real>
+							<ml:real>530</ml:real>
+							<ml:real>531</ml:real>
+							<ml:real>532</ml:real>
+							<ml:real>533</ml:real>
+							<ml:real>534</ml:real>
+							<ml:real>535</ml:real>
+							<ml:real>536</ml:real>
+							<ml:real>538</ml:real>
+							<ml:real>539</ml:real>
+							<ml:real>540</ml:real>
+							<ml:real>541</ml:real>
+							<ml:real>542</ml:real>
+							<ml:real>543</ml:real>
+							<ml:real>545</ml:real>
+							<ml:real>546</ml:real>
+							<ml:real>547</ml:real>
+							<ml:real>548</ml:real>
+							<ml:real>549</ml:real>
+							<ml:real>550</ml:real>
+							<ml:real>551</ml:real>
+							<ml:real>552</ml:real>
+							<ml:real>554</ml:real>
+							<ml:real>555</ml:real>
+							<ml:real>556</ml:real>
+							<ml:real>557</ml:real>
+							<ml:real>558</ml:real>
+							<ml:real>559</ml:real>
+							<ml:real>563</ml:real>
+							<ml:real>564</ml:real>
+							<ml:real>565</ml:real>
+							<ml:real>566</ml:real>
+							<ml:real>567</ml:real>
+							<ml:real>568</ml:real>
+							<ml:real>569</ml:real>
+							<ml:real>570</ml:real>
+							<ml:real>571</ml:real>
+							<ml:real>572</ml:real>
+							<ml:real>573</ml:real>
+							<ml:real>578</ml:real>
+							<ml:real>579</ml:real>
+							<ml:real>580</ml:real>
+							<ml:real>581</ml:real>
+							<ml:real>582</ml:real>
+							<ml:real>583</ml:real>
+							<ml:real>585</ml:real>
+							<ml:real>586</ml:real>
+							<ml:real>587</ml:real>
+							<ml:real>588</ml:real>
+							<ml:real>589</ml:real>
+							<ml:real>590</ml:real>
+							<ml:real>591</ml:real>
+							<ml:real>592</ml:real>
+							<ml:real>593</ml:real>
+							<ml:real>594</ml:real>
+							<ml:real>596</ml:real>
+							<ml:real>598</ml:real>
+							<ml:real>599</ml:real>
+							<ml:real>600</ml:real>
+							<ml:real>601</ml:real>
+							<ml:real>603</ml:real>
+							<ml:real>604</ml:real>
+							<ml:real>605</ml:real>
+							<ml:real>606</ml:real>
+							<ml:real>607</ml:real>
+							<ml:real>608</ml:real>
+							<ml:real>610</ml:real>
+							<ml:real>611</ml:real>
+							<ml:real>612</ml:real>
+							<ml:real>613</ml:real>
+							<ml:real>615</ml:real>
+							<ml:real>616</ml:real>
+							<ml:real>619</ml:real>
+							<ml:real>620</ml:real>
+							<ml:real>621</ml:real>
+							<ml:real>622</ml:real>
+							<ml:real>624</ml:real>
+							<ml:real>626</ml:real>
+							<ml:real>628</ml:real>
+							<ml:real>629</ml:real>
+							<ml:real>630</ml:real>
+							<ml:real>632</ml:real>
+							<ml:real>634</ml:real>
+							<ml:real>636</ml:real>
+							<ml:real>637</ml:real>
+							<ml:real>638</ml:real>
+							<ml:real>639</ml:real>
+							<ml:real>641</ml:real>
+							<ml:real>643</ml:real>
+							<ml:real>644</ml:real>
+							<ml:real>646</ml:real>
+							<ml:real>647</ml:real>
+							<ml:real>649</ml:real>
+							<ml:real>650</ml:real>
+							<ml:real>651</ml:real>
+							<ml:real>652</ml:real>
+							<ml:real>653</ml:real>
+							<ml:real>655</ml:real>
+							<ml:real>658</ml:real>
+							<ml:real>660</ml:real>
+							<ml:real>661</ml:real>
+							<ml:real>664</ml:real>
+							<ml:real>665</ml:real>
+							<ml:real>666</ml:real>
+							<ml:real>667</ml:real>
+							<ml:real>668</ml:real>
+							<ml:real>669</ml:real>
+							<ml:real>670</ml:real>
+							<ml:real>671</ml:real>
+							<ml:real>672</ml:real>
+							<ml:real>673</ml:real>
+							<ml:real>675</ml:real>
+							<ml:real>677</ml:real>
+							<ml:real>678</ml:real>
+							<ml:real>679</ml:real>
+							<ml:real>682</ml:real>
+							<ml:real>683</ml:real>
+							<ml:real>684</ml:real>
+							<ml:real>685</ml:real>
+							<ml:real>686</ml:real>
+							<ml:real>687</ml:real>
+							<ml:real>689</ml:real>
+							<ml:real>690</ml:real>
+							<ml:real>691</ml:real>
+							<ml:real>695</ml:real>
+							<ml:real>696</ml:real>
+							<ml:real>697</ml:real>
+							<ml:real>698</ml:real>
+							<ml:real>701</ml:real>
+							<ml:real>702</ml:real>
+							<ml:real>703</ml:real>
+							<ml:real>705</ml:real>
+							<ml:real>707</ml:real>
+							<ml:real>709</ml:real>
+							<ml:real>712</ml:real>
+							<ml:real>713</ml:real>
+							<ml:real>714</ml:real>
+							<ml:real>715</ml:real>
+							<ml:real>716</ml:real>
+							<ml:real>717</ml:real>
+							<ml:real>718</ml:real>
+							<ml:real>719</ml:real>
+							<ml:real>721</ml:real>
+							<ml:real>722</ml:real>
+							<ml:real>723</ml:real>
+							<ml:real>724</ml:real>
+							<ml:real>725</ml:real>
+							<ml:real>727</ml:real>
+							<ml:real>728</ml:real>
+							<ml:real>729</ml:real>
+							<ml:real>730</ml:real>
+							<ml:real>732</ml:real>
+							<ml:real>733</ml:real>
+							<ml:real>734</ml:real>
+							<ml:real>736</ml:real>
+							<ml:real>737</ml:real>
+							<ml:real>739</ml:real>
+							<ml:real>740</ml:real>
+							<ml:real>741</ml:real>
+							<ml:real>742</ml:real>
+							<ml:real>743</ml:real>
+							<ml:real>745</ml:real>
+							<ml:real>746</ml:real>
+							<ml:real>747</ml:real>
+							<ml:real>748</ml:real>
+							<ml:real>749</ml:real>
+							<ml:real>750</ml:real>
+							<ml:real>751</ml:real>
+							<ml:real>752</ml:real>
+							<ml:real>753</ml:real>
+							<ml:real>754</ml:real>
+							<ml:real>755</ml:real>
+							<ml:real>756</ml:real>
+							<ml:real>757</ml:real>
+							<ml:real>758</ml:real>
+							<ml:real>759</ml:real>
+							<ml:real>760</ml:real>
+							<ml:real>761</ml:real>
+							<ml:real>763</ml:real>
+							<ml:real>764</ml:real>
+							<ml:real>766</ml:real>
+							<ml:real>768</ml:real>
+							<ml:real>769</ml:real>
+							<ml:real>770</ml:real>
+							<ml:real>772</ml:real>
+							<ml:real>773</ml:real>
+							<ml:real>774</ml:real>
+							<ml:real>775</ml:real>
+							<ml:real>776</ml:real>
+							<ml:real>777</ml:real>
+							<ml:real>779</ml:real>
+							<ml:real>780</ml:real>
+							<ml:real>781</ml:real>
+							<ml:real>784</ml:real>
+							<ml:real>785</ml:real>
+							<ml:real>787</ml:real>
+							<ml:real>788</ml:real>
+							<ml:real>789</ml:real>
+							<ml:real>790</ml:real>
+							<ml:real>791</ml:real>
+							<ml:real>792</ml:real>
+							<ml:real>793</ml:real>
+							<ml:real>794</ml:real>
+							<ml:real>796</ml:real>
+							<ml:real>797</ml:real>
+							<ml:real>799</ml:real>
+							<ml:real>800</ml:real>
+							<ml:real>801</ml:real>
+							<ml:real>802</ml:real>
+							<ml:real>803</ml:real>
+							<ml:real>804</ml:real>
+							<ml:real>805</ml:real>
+							<ml:real>806</ml:real>
+							<ml:real>807</ml:real>
+							<ml:real>808</ml:real>
+							<ml:real>809</ml:real>
+							<ml:real>810</ml:real>
+							<ml:real>811</ml:real>
+							<ml:real>812</ml:real>
+							<ml:real>813</ml:real>
+							<ml:real>814</ml:real>
+							<ml:real>815</ml:real>
+							<ml:real>816</ml:real>
+							<ml:real>817</ml:real>
+							<ml:real>820</ml:real>
+							<ml:real>823</ml:real>
+							<ml:real>824</ml:real>
+							<ml:real>825</ml:real>
+							<ml:real>827</ml:real>
+							<ml:real>828</ml:real>
+							<ml:real>829</ml:real>
+							<ml:real>831</ml:real>
+							<ml:real>832</ml:real>
+							<ml:real>833</ml:real>
+							<ml:real>834</ml:real>
+							<ml:real>835</ml:real>
+							<ml:real>836</ml:real>
+							<ml:real>837</ml:real>
+							<ml:real>838</ml:real>
+							<ml:real>839</ml:real>
+							<ml:real>841</ml:real>
+							<ml:real>843</ml:real>
+							<ml:real>844</ml:real>
+							<ml:real>845</ml:real>
+							<ml:real>846</ml:real>
+							<ml:real>848</ml:real>
+							<ml:real>850</ml:real>
+							<ml:real>851</ml:real>
+							<ml:real>852</ml:real>
+							<ml:real>853</ml:real>
+							<ml:real>855</ml:real>
+							<ml:real>856</ml:real>
+							<ml:real>858</ml:real>
+							<ml:real>859</ml:real>
+							<ml:real>861</ml:real>
+							<ml:real>864</ml:real>
+							<ml:real>866</ml:real>
+							<ml:real>867</ml:real>
+							<ml:real>868</ml:real>
+							<ml:real>871</ml:real>
+							<ml:real>872</ml:real>
+							<ml:real>874</ml:real>
+							<ml:real>875</ml:real>
+							<ml:real>876</ml:real>
+							<ml:real>877</ml:real>
+							<ml:real>878</ml:real>
+							<ml:real>879</ml:real>
+							<ml:real>881</ml:real>
+							<ml:real>883</ml:real>
+							<ml:real>884</ml:real>
+							<ml:real>885</ml:real>
+							<ml:real>887</ml:real>
+							<ml:real>888</ml:real>
+							<ml:real>890</ml:real>
+							<ml:real>891</ml:real>
+							<ml:real>895</ml:real>
+							<ml:real>896</ml:real>
+							<ml:real>898</ml:real>
+							<ml:real>899</ml:real>
+							<ml:real>901</ml:real>
+							<ml:real>902</ml:real>
+							<ml:real>903</ml:real>
+							<ml:real>904</ml:real>
+							<ml:real>905</ml:real>
+							<ml:real>906</ml:real>
+							<ml:real>907</ml:real>
+							<ml:real>908</ml:real>
+							<ml:real>909</ml:real>
+							<ml:real>910</ml:real>
+							<ml:real>914</ml:real>
+							<ml:real>915</ml:real>
+							<ml:real>917</ml:real>
+							<ml:real>918</ml:real>
+							<ml:real>919</ml:real>
+							<ml:real>920</ml:real>
+							<ml:real>921</ml:real>
+							<ml:real>922</ml:real>
+							<ml:real>925</ml:real>
+							<ml:real>926</ml:real>
+							<ml:real>927</ml:real>
+							<ml:real>930</ml:real>
+							<ml:real>932</ml:real>
+							<ml:real>933</ml:real>
+							<ml:real>935</ml:real>
+							<ml:real>937</ml:real>
+							<ml:real>938</ml:real>
+							<ml:real>939</ml:real>
+							<ml:real>940</ml:real>
+							<ml:real>941</ml:real>
+							<ml:real>942</ml:real>
+							<ml:real>943</ml:real>
+							<ml:real>946</ml:real>
+							<ml:real>947</ml:real>
+							<ml:real>948</ml:real>
+							<ml:real>951</ml:real>
+							<ml:real>952</ml:real>
+							<ml:real>953</ml:real>
+							<ml:real>955</ml:real>
+							<ml:real>956</ml:real>
+							<ml:real>957</ml:real>
+							<ml:real>958</ml:real>
+							<ml:real>959</ml:real>
+							<ml:real>960</ml:real>
+							<ml:real>961</ml:real>
+							<ml:real>963</ml:real>
+							<ml:real>964</ml:real>
+							<ml:real>965</ml:real>
+							<ml:real>966</ml:real>
+							<ml:real>968</ml:real>
+							<ml:real>969</ml:real>
+							<ml:real>970</ml:real>
+							<ml:real>971</ml:real>
+							<ml:real>972</ml:real>
+							<ml:real>973</ml:real>
+							<ml:real>974</ml:real>
+							<ml:real>975</ml:real>
+							<ml:real>976</ml:real>
+							<ml:real>977</ml:real>
+							<ml:real>979</ml:real>
+							<ml:real>980</ml:real>
+							<ml:real>981</ml:real>
+							<ml:real>982</ml:real>
+							<ml:real>983</ml:real>
+							<ml:real>985</ml:real>
+							<ml:real>986</ml:real>
+							<ml:real>987</ml:real>
+							<ml:real>988</ml:real>
+							<ml:real>989</ml:real>
+							<ml:real>990</ml:real>
+							<ml:real>992</ml:real>
+							<ml:real>993</ml:real>
+							<ml:real>994</ml:real>
+							<ml:real>995</ml:real>
+							<ml:real>997</ml:real>
+							<ml:real>998</ml:real>
+							<ml:real>999</ml:real>
+							<ml:real>1000</ml:real>
+							<ml:real>-0.311435</ml:real>
+							<ml:real>0.697398</ml:real>
+							<ml:real>-0.17859</ml:real>
+							<ml:real>-1.52807</ml:real>
+							<ml:real>0.56928</ml:real>
+							<ml:real>0.810935</ml:real>
+							<ml:real>-0.798299</ml:real>
+							<ml:real>0.215661</ml:real>
+							<ml:real>0.436074</ml:real>
+							<ml:real>-1.10991</ml:real>
+							<ml:real>1.30021</ml:real>
+							<ml:real>0.186332</ml:real>
+							<ml:real>0.343464</ml:real>
+							<ml:real>-0.556061</ml:real>
+							<ml:real>1.28623</ml:real>
+							<ml:real>-0.474913</ml:real>
+							<ml:real>-1.85484</ml:real>
+							<ml:real>-1.44599</ml:real>
+							<ml:real>0.896368</ml:real>
+							<ml:real>-0.466177</ml:real>
+							<ml:real>-0.555381</ml:real>
+							<ml:real>-0.256994</ml:real>
+							<ml:real>0.249085</ml:real>
+							<ml:real>-0.391283</ml:real>
+							<ml:real>0.361149</ml:real>
+							<ml:real>0.714709</ml:real>
+							<ml:real>-2.02526</ml:real>
+							<ml:real>-0.765064</ml:real>
+							<ml:real>0.884593</ml:real>
+							<ml:real>0.777025</ml:real>
+							<ml:real>0.587057</ml:real>
+							<ml:real>-1.45578</ml:real>
+							<ml:real>-1.76481</ml:real>
+							<ml:real>0.0549468</ml:real>
+							<ml:real>-0.34472</ml:real>
+							<ml:real>-1.1865</ml:real>
+							<ml:real>1.16132</ml:real>
+							<ml:real>-0.472078</ml:real>
+							<ml:real>0.877718</ml:real>
+							<ml:real>1.57401</ml:real>
+							<ml:real>0.820566</ml:real>
+							<ml:real>0.0730917</ml:real>
+							<ml:real>0.495477</ml:real>
+							<ml:real>-0.99034</ml:real>
+							<ml:real>-0.673601</ml:real>
+							<ml:real>-0.695774</ml:real>
+							<ml:real>-0.302606</ml:real>
+							<ml:real>0.521278</ml:real>
+							<ml:real>1.37753</ml:real>
+							<ml:real>-1.46986</ml:real>
+							<ml:real>-0.222267</ml:real>
+							<ml:real>0.311456</ml:real>
+							<ml:real>-0.140695</ml:real>
+							<ml:real>-2.57505</ml:real>
+							<ml:real>2.53049</ml:real>
+							<ml:real>1.43551</ml:real>
+							<ml:real>-0.598049</ml:real>
+							<ml:real>0.045984</ml:real>
+							<ml:real>0.444382</ml:real>
+							<ml:real>0.362358</ml:real>
+							<ml:real>0.498412</ml:real>
+							<ml:real>0.263854</ml:real>
+							<ml:real>0.468868</ml:real>
+							<ml:real>-1.91841</ml:real>
+							<ml:real>-1.04511</ml:real>
+							<ml:real>-0.496241</ml:real>
+							<ml:real>0.230705</ml:real>
+							<ml:real>0.0479</ml:real>
+							<ml:real>0.123476</ml:real>
+							<ml:real>0.798493</ml:real>
+							<ml:real>0.198914</ml:real>
+							<ml:real>0.982824</ml:real>
+							<ml:real>1.05518</ml:real>
+							<ml:real>-0.377232</ml:real>
+							<ml:real>0.132228</ml:real>
+							<ml:real>-3.06248</ml:real>
+							<ml:real>1.00751</ml:real>
+							<ml:real>-1.66443</ml:real>
+							<ml:real>-0.430082</ml:real>
+							<ml:real>-0.442573</ml:real>
+							<ml:real>-0.870601</ml:real>
+							<ml:real>0.646129</ml:real>
+							<ml:real>-0.965481</ml:real>
+							<ml:real>-1.40566</ml:real>
+							<ml:real>-0.453363</ml:real>
+							<ml:real>0.238244</ml:real>
+							<ml:real>-0.693197</ml:real>
+							<ml:real>-0.0995754</ml:real>
+							<ml:real>1.22328</ml:real>
+							<ml:real>-0.0190665</ml:real>
+							<ml:real>-0.258176</ml:real>
+							<ml:real>0.566523</ml:real>
+							<ml:real>1.32091</ml:real>
+							<ml:real>0.273116</ml:real>
+							<ml:real>0.0831669</ml:real>
+							<ml:real>1.12926</ml:real>
+							<ml:real>0.836544</ml:real>
+							<ml:real>1.11688</ml:real>
+							<ml:real>2.06016</ml:real>
+							<ml:real>0.108096</ml:real>
+							<ml:real>-0.700919</ml:real>
+							<ml:real>-1.2064</ml:real>
+							<ml:real>2.12486</ml:real>
+							<ml:real>-0.464867</ml:real>
+							<ml:real>-0.768298</ml:real>
+							<ml:real>0.52835</ml:real>
+							<ml:real>-0.921268</ml:real>
+							<ml:real>-1.69453</ml:real>
+							<ml:real>-2.37487</ml:real>
+							<ml:real>0.477134</ml:real>
+							<ml:real>-0.593709</ml:real>
+							<ml:real>-1.2942</ml:real>
+							<ml:real>-0.957657</ml:real>
+							<ml:real>0.1195</ml:real>
+							<ml:real>0.25056</ml:real>
+							<ml:real>1.51477</ml:real>
+							<ml:real>-0.77953</ml:real>
+							<ml:real>0.169808</ml:real>
+							<ml:real>-0.0929636</ml:real>
+							<ml:real>0.208014</ml:real>
+							<ml:real>-1.21312</ml:real>
+							<ml:real>-0.665079</ml:real>
+							<ml:real>-0.208231</ml:real>
+							<ml:real>1.48418</ml:real>
+							<ml:real>0.750394</ml:real>
+							<ml:real>-0.301183</ml:real>
+							<ml:real>1.84906</ml:real>
+							<ml:real>1.46209</ml:real>
+							<ml:real>-0.258658</ml:real>
+							<ml:real>-1.34607</ml:real>
+							<ml:real>-2.48149</ml:real>
+							<ml:real>0.140608</ml:real>
+							<ml:real>-2.01832</ml:real>
+							<ml:real>-1.88869</ml:real>
+							<ml:real>0.270152</ml:real>
+							<ml:real>0.854132</ml:real>
+							<ml:real>-0.984838</ml:real>
+							<ml:real>-1.38111</ml:real>
+							<ml:real>-0.625816</ml:real>
+							<ml:real>-1.52784</ml:real>
+							<ml:real>0.185441</ml:real>
+							<ml:real>-0.0597043</ml:real>
+							<ml:real>2.02923</ml:real>
+							<ml:real>-0.954388</ml:real>
+							<ml:real>0.632932</ml:real>
+							<ml:real>1.60975</ml:real>
+							<ml:real>0.335455</ml:real>
+							<ml:real>-0.647843</ml:real>
+							<ml:real>-0.440612</ml:real>
+							<ml:real>0.574814</ml:real>
+							<ml:real>-0.260811</ml:real>
+							<ml:real>-0.255605</ml:real>
+							<ml:real>-0.332529</ml:real>
+							<ml:real>0.801741</ml:real>
+							<ml:real>1.05578</ml:real>
+							<ml:real>0.0889319</ml:real>
+							<ml:real>-2.03131</ml:real>
+							<ml:real>0.629782</ml:real>
+							<ml:real>-1.62301</ml:real>
+							<ml:real>-0.633184</ml:real>
+							<ml:real>-0.212075</ml:real>
+							<ml:real>-0.295242</ml:real>
+							<ml:real>0.825604</ml:real>
+							<ml:real>1.15921</ml:real>
+							<ml:real>1.75038</ml:real>
+							<ml:real>-1.48859</ml:real>
+							<ml:real>-0.847644</ml:real>
+							<ml:real>0.269503</ml:real>
+							<ml:real>-2.57943</ml:real>
+							<ml:real>-1.42034</ml:real>
+							<ml:real>0.968152</ml:real>
+							<ml:real>-1.62684</ml:real>
+							<ml:real>0.610469</ml:real>
+							<ml:real>-1.82149</ml:real>
+							<ml:real>-0.576046</ml:real>
+							<ml:real>-1.09337</ml:real>
+							<ml:real>-0.499236</ml:real>
+							<ml:real>-0.405028</ml:real>
+							<ml:real>-0.87294</ml:real>
+							<ml:real>0.551836</ml:real>
+							<ml:real>0.0994572</ml:real>
+							<ml:real>2.75236</ml:real>
+							<ml:real>-0.0199162</ml:real>
+							<ml:real>0.90835</ml:real>
+							<ml:real>2.70957</ml:real>
+							<ml:real>-0.489084</ml:real>
+							<ml:real>0.328345</ml:real>
+							<ml:real>0.13717</ml:real>
+							<ml:real>-0.750593</ml:real>
+							<ml:real>0.331356</ml:real>
+							<ml:real>-2.29261</ml:real>
+							<ml:real>1.50246</ml:real>
+							<ml:real>0.869834</ml:real>
+							<ml:real>0.209179</ml:real>
+							<ml:real>-1.0524</ml:real>
+							<ml:real>1.21629</ml:real>
+							<ml:real>-0.197561</ml:real>
+							<ml:real>1.47821</ml:real>
+							<ml:real>-0.970522</ml:real>
+							<ml:real>-0.725632</ml:real>
+							<ml:real>0.373244</ml:real>
+							<ml:real>-0.185804</ml:real>
+							<ml:real>-0.0746584</ml:real>
+							<ml:real>-0.288707</ml:real>
+							<ml:real>-0.0381187</ml:real>
+							<ml:real>1.31958</ml:real>
+							<ml:real>-0.410573</ml:real>
+							<ml:real>-1.04228</ml:real>
+							<ml:real>1.0425</ml:real>
+							<ml:real>-0.618574</ml:real>
+							<ml:real>1.39296</ml:real>
+							<ml:real>-0.932354</ml:real>
+							<ml:real>0.549567</ml:real>
+							<ml:real>-0.0913981</ml:real>
+							<ml:real>-1.96944</ml:real>
+							<ml:real>0.570977</ml:real>
+							<ml:real>-1.1505</ml:real>
+							<ml:real>0.183832</ml:real>
+							<ml:real>0.156693</ml:real>
+							<ml:real>0.0932471</ml:real>
+							<ml:real>0.0858545</ml:real>
+							<ml:real>-0.772725</ml:real>
+							<ml:real>-1.23282</ml:real>
+							<ml:real>-0.0361206</ml:real>
+							<ml:real>-0.542905</ml:real>
+							<ml:real>-1.45522</ml:real>
+							<ml:real>0.556323</ml:real>
+							<ml:real>1.96497</ml:real>
+							<ml:real>1.87182</ml:real>
+							<ml:real>-0.716925</ml:real>
+							<ml:real>-0.00360759</ml:real>
+							<ml:real>0.920031</ml:real>
+							<ml:real>-0.72912</ml:real>
+							<ml:real>-0.6121</ml:real>
+							<ml:real>-0.203268</ml:real>
+							<ml:real>0.952423</ml:real>
+							<ml:real>-0.581023</ml:real>
+							<ml:real>-0.214639</ml:real>
+							<ml:real>-1.13434</ml:real>
+							<ml:real>-1.3756</ml:real>
+							<ml:real>-1.57972</ml:real>
+							<ml:real>0.0884332</ml:real>
+							<ml:real>0.295574</ml:real>
+							<ml:real>0.0359483</ml:real>
+							<ml:real>0.115779</ml:real>
+							<ml:real>1.0374</ml:real>
+							<ml:real>-0.678492</ml:real>
+							<ml:real>-0.0789236</ml:real>
+							<ml:real>-0.0375306</ml:real>
+							<ml:real>0.338422</ml:real>
+							<ml:real>-0.122764</ml:real>
+							<ml:real>1.03029</ml:real>
+							<ml:real>0.279306</ml:real>
+							<ml:real>0.301716</ml:real>
+							<ml:real>-0.0662509</ml:real>
+							<ml:real>0.590099</ml:real>
+							<ml:real>-0.572846</ml:real>
+							<ml:real>-0.78759</ml:real>
+							<ml:real>0.0238909</ml:real>
+							<ml:real>-0.203739</ml:real>
+							<ml:real>-1.57718</ml:real>
+							<ml:real>-0.238005</ml:real>
+							<ml:real>0.911782</ml:real>
+							<ml:real>-0.961469</ml:real>
+							<ml:real>0.802793</ml:real>
+							<ml:real>0.52155</ml:real>
+							<ml:real>0.00825451</ml:real>
+							<ml:real>0.820759</ml:real>
+							<ml:real>0.858141</ml:real>
+							<ml:real>-1.2549</ml:real>
+							<ml:real>-0.00879783</ml:real>
+							<ml:real>-0.628695</ml:real>
+							<ml:real>1.65092</ml:real>
+							<ml:real>-0.0133043</ml:real>
+							<ml:real>1.04855</ml:real>
+							<ml:real>0.13236</ml:real>
+							<ml:real>-0.824817</ml:real>
+							<ml:real>1.22122</ml:real>
+							<ml:real>2.45358</ml:real>
+							<ml:real>-0.152164</ml:real>
+							<ml:real>1.1237</ml:real>
+							<ml:real>-0.320992</ml:real>
+							<ml:real>-0.404218</ml:real>
+							<ml:real>0.647857</ml:real>
+							<ml:real>-0.244425</ml:real>
+							<ml:real>-0.971981</ml:real>
+							<ml:real>-0.951902</ml:real>
+							<ml:real>0.530598</ml:real>
+							<ml:real>0.378597</ml:real>
+							<ml:real>-0.609388</ml:real>
+							<ml:real>-0.385991</ml:real>
+							<ml:real>-0.600124</ml:real>
+							<ml:real>1.44634</ml:real>
+							<ml:real>-0.345689</ml:real>
+							<ml:real>-0.981239</ml:real>
+							<ml:real>-1.29658</ml:real>
+							<ml:real>1.38941</ml:real>
+							<ml:real>-0.0463141</ml:real>
+							<ml:real>-1.53696</ml:real>
+							<ml:real>-0.235439</ml:real>
+							<ml:real>0.326678</ml:real>
+							<ml:real>1.07279</ml:real>
+							<ml:real>-0.67167</ml:real>
+							<ml:real>0.976297</ml:real>
+							<ml:real>-0.377703</ml:real>
+							<ml:real>0.606223</ml:real>
+							<ml:real>0.350264</ml:real>
+							<ml:real>-0.48517</ml:real>
+							<ml:real>0.517738</ml:real>
+							<ml:real>0.247106</ml:real>
+							<ml:real>-0.566657</ml:real>
+							<ml:real>0.158538</ml:real>
+							<ml:real>0.555538</ml:real>
+							<ml:real>-0.127073</ml:real>
+							<ml:real>0.475386</ml:real>
+							<ml:real>1.27998</ml:real>
+							<ml:real>1.60018</ml:real>
+							<ml:real>-1.78621</ml:real>
+							<ml:real>-0.295525</ml:real>
+							<ml:real>-0.960241</ml:real>
+							<ml:real>0.199229</ml:real>
+							<ml:real>0.255513</ml:real>
+							<ml:real>-0.458186</ml:real>
+							<ml:real>-0.599731</ml:real>
+							<ml:real>1.1945</ml:real>
+							<ml:real>-1.56874</ml:real>
+							<ml:real>-0.457933</ml:real>
+							<ml:real>1.6193</ml:real>
+							<ml:real>-0.774426</ml:real>
+							<ml:real>-0.0624249</ml:real>
+							<ml:real>1.48859</ml:real>
+							<ml:real>-1.57732</ml:real>
+							<ml:real>-0.449822</ml:real>
+							<ml:real>1.06648</ml:real>
+							<ml:real>-0.289001</ml:real>
+							<ml:real>-1.52155</ml:real>
+							<ml:real>-3.53627</ml:real>
+							<ml:real>1.57695</ml:real>
+							<ml:real>1.65456</ml:real>
+							<ml:real>1.36174</ml:real>
+							<ml:real>0.416105</ml:real>
+							<ml:real>0.912598</ml:real>
+							<ml:real>0.27985</ml:real>
+							<ml:real>-1.58068</ml:real>
+							<ml:real>-0.771797</ml:real>
+							<ml:real>-0.925553</ml:real>
+							<ml:real>-0.248373</ml:real>
+							<ml:real>0.0296692</ml:real>
+							<ml:real>-0.113717</ml:real>
+							<ml:real>-0.422777</ml:real>
+							<ml:real>-0.974477</ml:real>
+							<ml:real>0.462311</ml:real>
+							<ml:real>0.575836</ml:real>
+							<ml:real>1.68963</ml:real>
+							<ml:real>1.18181</ml:real>
+							<ml:real>-0.672949</ml:real>
+							<ml:real>-0.623521</ml:real>
+							<ml:real>-0.034849</ml:real>
+							<ml:real>1.18922</ml:real>
+							<ml:real>-0.199617</ml:real>
+							<ml:real>0.381243</ml:real>
+							<ml:real>0.00755108</ml:real>
+							<ml:real>-0.656703</ml:real>
+							<ml:real>-0.359063</ml:real>
+							<ml:real>-0.244748</ml:real>
+							<ml:real>-0.0654418</ml:real>
+							<ml:real>0.701406</ml:real>
+							<ml:real>-2.09349</ml:real>
+							<ml:real>-0.0624377</ml:real>
+							<ml:real>0.301124</ml:real>
+							<ml:real>0.211423</ml:real>
+							<ml:real>0.0635655</ml:real>
+							<ml:real>-0.938132</ml:real>
+							<ml:real>-0.242248</ml:real>
+							<ml:real>-0.151333</ml:real>
+							<ml:real>-0.333001</ml:real>
+							<ml:real>-1.6156</ml:real>
+							<ml:real>-0.255332</ml:real>
+							<ml:real>-1.04066</ml:real>
+							<ml:real>-0.0035509</ml:real>
+							<ml:real>0.246435</ml:real>
+							<ml:real>1.30557</ml:real>
+							<ml:real>0.390921</ml:real>
+							<ml:real>0.390244</ml:real>
+							<ml:real>-0.943893</ml:real>
+							<ml:real>0.145509</ml:real>
+							<ml:real>-0.809499</ml:real>
+							<ml:real>2.04008</ml:real>
+							<ml:real>-0.13863</ml:real>
+							<ml:real>1.23309</ml:real>
+							<ml:real>2.87339</ml:real>
+							<ml:real>0.0715843</ml:real>
+							<ml:real>-0.290841</ml:real>
+							<ml:real>1.16017</ml:real>
+							<ml:real>0.89923</ml:real>
+							<ml:real>0.292923</ml:real>
+							<ml:real>0.562336</ml:real>
+							<ml:real>1.53615</ml:real>
+							<ml:real>0.0754175</ml:real>
+							<ml:real>-0.451235</ml:real>
+							<ml:real>0.457999</ml:real>
+							<ml:real>-0.362523</ml:real>
+							<ml:real>-0.886033</ml:real>
+							<ml:real>-0.675697</ml:real>
+							<ml:real>0.499354</ml:real>
+							<ml:real>-0.83191</ml:real>
+							<ml:real>-1.58018</ml:real>
+							<ml:real>-0.663383</ml:real>
+							<ml:real>0.269165</ml:real>
+							<ml:real>1.39078</ml:real>
+							<ml:real>-1.09953</ml:real>
+							<ml:real>1.408</ml:real>
+							<ml:real>0.765206</ml:real>
+							<ml:real>2.26167</ml:real>
+							<ml:real>-0.267097</ml:real>
+							<ml:real>2.00821</ml:real>
+							<ml:real>0.874984</ml:real>
+							<ml:real>0.340682</ml:real>
+							<ml:real>-0.788095</ml:real>
+							<ml:real>1.26646</ml:real>
+							<ml:real>0.788427</ml:real>
+							<ml:real>-0.0263379</ml:real>
+							<ml:real>-0.0809903</ml:real>
+							<ml:real>1.11404</ml:real>
+							<ml:real>0.767263</ml:real>
+							<ml:real>0.229744</ml:real>
+							<ml:real>0.395966</ml:real>
+							<ml:real>-1.69203</ml:real>
+							<ml:real>-0.422067</ml:real>
+							<ml:real>-0.400411</ml:real>
+							<ml:real>1.43058</ml:real>
+							<ml:real>-0.35313</ml:real>
+							<ml:real>0.926129</ml:real>
+							<ml:real>-0.411594</ml:real>
+							<ml:real>0.340658</ml:real>
+							<ml:real>-0.0804855</ml:real>
+							<ml:real>-1.93276</ml:real>
+							<ml:real>0.873492</ml:real>
+							<ml:real>-0.0826127</ml:real>
+							<ml:real>1.62602</ml:real>
+							<ml:real>-0.230271</ml:real>
+							<ml:real>0.534673</ml:real>
+							<ml:real>1.13715</ml:real>
+							<ml:real>-1.01168</ml:real>
+							<ml:real>-0.621188</ml:real>
+							<ml:real>-0.846192</ml:real>
+							<ml:real>1.46054</ml:real>
+							<ml:real>-0.165746</ml:real>
+							<ml:real>2.1636</ml:real>
+							<ml:real>-2.01049</ml:real>
+							<ml:real>0.403161</ml:real>
+							<ml:real>-2.51285</ml:real>
+							<ml:real>-0.619048</ml:real>
+							<ml:real>0.243537</ml:real>
+							<ml:real>0.353325</ml:real>
+							<ml:real>-0.316995</ml:real>
+							<ml:real>-0.959431</ml:real>
+							<ml:real>0.630393</ml:real>
+							<ml:real>0.181858</ml:real>
+							<ml:real>0.0889351</ml:real>
+							<ml:real>0.184539</ml:real>
+							<ml:real>1.77894</ml:real>
+							<ml:real>1.11967</ml:real>
+							<ml:real>0.0362343</ml:real>
+							<ml:real>-0.639136</ml:real>
+							<ml:real>-0.562878</ml:real>
+							<ml:real>-2.19587</ml:real>
+							<ml:real>0.489782</ml:real>
+							<ml:real>-0.56717</ml:real>
+							<ml:real>-0.422603</ml:real>
+							<ml:real>-0.0338524</ml:real>
+							<ml:real>0.763936</ml:real>
+							<ml:real>0.738951</ml:real>
+							<ml:real>1.05051</ml:real>
+							<ml:real>-1.00704</ml:real>
+							<ml:real>-0.801814</ml:real>
+							<ml:real>0.464296</ml:real>
+							<ml:real>-0.467569</ml:real>
+							<ml:real>-1.42702</ml:real>
+							<ml:real>1.41894</ml:real>
+							<ml:real>-0.280679</ml:real>
+							<ml:real>0.965508</ml:real>
+							<ml:real>1.27271</ml:real>
+							<ml:real>-0.652604</ml:real>
+							<ml:real>-1.22176</ml:real>
+							<ml:real>0.74489</ml:real>
+							<ml:real>-0.387966</ml:real>
+							<ml:real>0.775047</ml:real>
+							<ml:real>0.431813</ml:real>
+							<ml:real>-1.19921</ml:real>
+							<ml:real>1.77413</ml:real>
+							<ml:real>0.891483</ml:real>
+							<ml:real>0.344359</ml:real>
+							<ml:real>-2.20851</ml:real>
+							<ml:real>0.36796</ml:real>
+							<ml:real>-1.00114</ml:real>
+							<ml:real>-0.668934</ml:real>
+							<ml:real>2.75391</ml:real>
+							<ml:real>1.24369</ml:real>
+							<ml:real>-1.5203</ml:real>
+							<ml:real>-0.850377</ml:real>
+							<ml:real>-0.163345</ml:real>
+							<ml:real>0.0117685</ml:real>
+							<ml:real>-0.93915</ml:real>
+							<ml:real>-0.671649</ml:real>
+							<ml:real>0.91133</ml:real>
+							<ml:real>-0.77235</ml:real>
+							<ml:real>0.621557</ml:real>
+							<ml:real>-1.30646</ml:real>
+							<ml:real>-0.558957</ml:real>
+							<ml:real>1.39387</ml:real>
+							<ml:real>0.0980045</ml:real>
+							<ml:real>-0.761406</ml:real>
+							<ml:real>-0.0347627</ml:real>
+							<ml:real>-1.00189</ml:real>
+							<ml:real>0.572813</ml:real>
+							<ml:real>-0.653958</ml:real>
+							<ml:real>-0.548779</ml:real>
+							<ml:real>-0.824865</ml:real>
+							<ml:real>-0.798872</ml:real>
+							<ml:real>0.519847</ml:real>
+							<ml:real>1.64185</ml:real>
+							<ml:real>-0.707371</ml:real>
+							<ml:real>-1.17655</ml:real>
+							<ml:real>-1.29267</ml:real>
+							<ml:real>-1.2056</ml:real>
+							<ml:real>-0.587177</ml:real>
+							<ml:real>-0.922442</ml:real>
+							<ml:real>1.2663</ml:real>
+							<ml:real>-0.426137</ml:real>
+							<ml:real>0.0085561</ml:real>
+							<ml:real>0.292858</ml:real>
+							<ml:real>0.197136</ml:real>
+							<ml:real>0.0724771</ml:real>
+							<ml:real>1.76215</ml:real>
+							<ml:real>0.845828</ml:real>
+							<ml:real>0.284345</ml:real>
+							<ml:real>0.0469304</ml:real>
+							<ml:real>1.09974</ml:real>
+							<ml:real>1.05662</ml:real>
+							<ml:real>-0.106705</ml:real>
+							<ml:real>0.50415</ml:real>
+							<ml:real>0.0232529</ml:real>
+							<ml:real>0.125774</ml:real>
+							<ml:real>-2.12427</ml:real>
+							<ml:real>0.766753</ml:real>
+							<ml:real>-1.13584</ml:real>
+							<ml:real>-0.991953</ml:real>
+							<ml:real>-1.24962</ml:real>
+							<ml:real>1.2493</ml:real>
+							<ml:real>-0.424485</ml:real>
+							<ml:real>-1.23022</ml:real>
+							<ml:real>0.554124</ml:real>
+							<ml:real>1.80401</ml:real>
+							<ml:real>-0.865768</ml:real>
+							<ml:real>-0.202292</ml:real>
+							<ml:real>0.454665</ml:real>
+							<ml:real>-0.249139</ml:real>
+							<ml:real>-0.998185</ml:real>
+							<ml:real>1.13277</ml:real>
+							<ml:real>-0.522987</ml:real>
+							<ml:real>-0.063278</ml:real>
+							<ml:real>-0.250875</ml:real>
+							<ml:real>-1.2428</ml:real>
+							<ml:real>-1.39726</ml:real>
+							<ml:real>-0.068909</ml:real>
+							<ml:real>0.108031</ml:real>
+							<ml:real>0.892651</ml:real>
+							<ml:real>-0.232341</ml:real>
+							<ml:real>-1.02208</ml:real>
+							<ml:real>0.221221</ml:real>
+							<ml:real>0.0758671</ml:real>
+							<ml:real>-0.177947</ml:real>
+							<ml:real>0.53773</ml:real>
+							<ml:real>0.592503</ml:real>
+							<ml:real>1.04323</ml:real>
+							<ml:real>1.38025</ml:real>
+							<ml:real>1.44802</ml:real>
+							<ml:real>0.983502</ml:real>
+							<ml:real>0.656629</ml:real>
+							<ml:real>-1.61027</ml:real>
+							<ml:real>-0.261345</ml:real>
+							<ml:real>0.213955</ml:real>
+							<ml:real>-3.01742</ml:real>
+							<ml:real>-0.0886544</ml:real>
+							<ml:real>2.10314</ml:real>
+							<ml:real>-0.919651</ml:real>
+							<ml:real>0.0330693</ml:real>
+							<ml:real>-0.754849</ml:real>
+							<ml:real>-0.283912</ml:real>
+							<ml:real>1.06395</ml:real>
+							<ml:real>-0.318718</ml:real>
+							<ml:real>-0.400853</ml:real>
+							<ml:real>0.204228</ml:real>
+							<ml:real>0.518776</ml:real>
+							<ml:real>-0.966414</ml:real>
+							<ml:real>1.37092</ml:real>
+							<ml:real>0.971482</ml:real>
+							<ml:real>-0.0639487</ml:real>
+							<ml:real>-1.51627</ml:real>
+							<ml:real>1.56995</ml:real>
+							<ml:real>-2.07685</ml:real>
+							<ml:real>-1.78369</ml:real>
+							<ml:real>0.831524</ml:real>
+							<ml:real>-0.461798</ml:real>
+							<ml:real>0.379419</ml:real>
+							<ml:real>0.708987</ml:real>
+							<ml:real>-1.57624</ml:real>
+							<ml:real>-1.18717</ml:real>
+							<ml:real>0.819886</ml:real>
+							<ml:real>0.541989</ml:real>
+							<ml:real>-0.0776704</ml:real>
+							<ml:real>0.167392</ml:real>
+							<ml:real>0.330571</ml:real>
+							<ml:real>0.500014</ml:real>
+							<ml:real>-0.420009</ml:real>
+							<ml:real>-2.3968</ml:real>
+							<ml:real>-1.34868</ml:real>
+							<ml:real>1.24853</ml:real>
+							<ml:real>-1.61283</ml:real>
+							<ml:real>0.218072</ml:real>
+							<ml:real>-1.36829</ml:real>
+							<ml:real>-0.160208</ml:real>
+							<ml:real>1.4164</ml:real>
+							<ml:real>-0.736125</ml:real>
+							<ml:real>-0.144228</ml:real>
+							<ml:real>-0.604849</ml:real>
+							<ml:real>0.953769</ml:real>
+							<ml:real>-0.140331</ml:real>
+							<ml:real>-0.773143</ml:real>
+							<ml:real>0.434356</ml:real>
+							<ml:real>0.131453</ml:real>
+							<ml:real>-1.0967</ml:real>
+							<ml:real>-0.712282</ml:real>
+							<ml:real>-0.582015</ml:real>
+							<ml:real>-0.633236</ml:real>
+							<ml:real>0.057631</ml:real>
+							<ml:real>0.169222</ml:real>
+							<ml:real>0.648958</ml:real>
+							<ml:real>0.551109</ml:real>
+							<ml:real>-2.57678</ml:real>
+							<ml:real>1.11061</ml:real>
+							<ml:real>-0.34896</ml:real>
+							<ml:real>-0.131559</ml:real>
+							<ml:real>-0.934511</ml:real>
+							<ml:real>-1.14723</ml:real>
+							<ml:real>0.433103</ml:real>
+							<ml:real>-0.41765</ml:real>
+							<ml:real>1.33952</ml:real>
+							<ml:real>-0.504544</ml:real>
+							<ml:real>-0.911768</ml:real>
+							<ml:real>-0.813271</ml:real>
+							<ml:real>0.634972</ml:real>
+							<ml:real>0.288567</ml:real>
+							<ml:real>-0.0188994</ml:real>
+							<ml:real>0.858497</ml:real>
+							<ml:real>-0.318066</ml:real>
+							<ml:real>-0.403058</ml:real>
+							<ml:real>0.780159</ml:real>
+							<ml:real>-1.18401</ml:real>
+							<ml:real>-0.312111</ml:real>
+							<ml:real>1.57757</ml:real>
+							<ml:real>-0.226867</ml:real>
+							<ml:real>1.11881</ml:real>
+							<ml:real>-0.396915</ml:real>
+							<ml:real>-0.361023</ml:real>
+							<ml:real>-0.00620784</ml:real>
+							<ml:real>0.0167043</ml:real>
+							<ml:real>-1.75538</ml:real>
+							<ml:real>0.777071</ml:real>
+							<ml:real>-0.381085</ml:real>
+							<ml:real>1.16793</ml:real>
+							<ml:real>-0.52032</ml:real>
+							<ml:real>-0.560452</ml:real>
+							<ml:real>0.0764075</ml:real>
+							<ml:real>-0.872597</ml:real>
+							<ml:real>-0.0657798</ml:real>
+							<ml:real>1.89312</ml:real>
+							<ml:real>1.74061</ml:real>
+							<ml:real>0.812249</ml:real>
+							<ml:real>0.289693</ml:real>
+							<ml:real>1.43838</ml:real>
+							<ml:real>-0.895376</ml:real>
+							<ml:real>1.5688</ml:real>
+							<ml:real>-1.29814</ml:real>
+							<ml:real>0.33572</ml:real>
+							<ml:real>0.0180208</ml:real>
+							<ml:real>-0.12831</ml:real>
+							<ml:real>0.689592</ml:real>
+							<ml:real>1.35393</ml:real>
+							<ml:real>0.22139</ml:real>
+							<ml:real>0.235866</ml:real>
+							<ml:real>0.0503164</ml:real>
+							<ml:real>1.54557</ml:real>
+							<ml:real>0.748337</ml:real>
+							<ml:real>-1.48596</ml:real>
+							<ml:real>2.50221</ml:real>
+							<ml:real>0.345085</ml:real>
+							<ml:real>0.898262</ml:real>
+							<ml:real>1.88057</ml:real>
+							<ml:real>0.279203</ml:real>
+							<ml:real>0.11859</ml:real>
+							<ml:real>-0.567122</ml:real>
+							<ml:real>0.900214</ml:real>
+							<ml:real>0.388571</ml:real>
+							<ml:real>0.337474</ml:real>
+							<ml:real>-0.296344</ml:real>
+							<ml:real>-0.994664</ml:real>
+							<ml:real>0.525967</ml:real>
+							<ml:real>1.45866</ml:real>
+							<ml:real>0.310901</ml:real>
+							<ml:real>1.08537</ml:real>
+							<ml:real>-0.536884</ml:real>
+							<ml:real>1.2122</ml:real>
+							<ml:real>-2.64828</ml:real>
+							<ml:real>0.437048</ml:real>
+							<ml:real>-0.751504</ml:real>
+							<ml:real>0.621819</ml:real>
+							<ml:real>0.236803</ml:real>
+							<ml:real>0.131667</ml:real>
+							<ml:real>-0.792282</ml:real>
+							<ml:real>-0.390968</ml:real>
+							<ml:real>0.160207</ml:real>
+							<ml:real>0.435284</ml:real>
+							<ml:real>-1.01418</ml:real>
+							<ml:real>1.57074</ml:real>
+							<ml:real>0.984646</ml:real>
+							<ml:real>0.307984</ml:real>
+							<ml:real>0.240026</ml:real>
+							<ml:real>-0.0895628</ml:real>
+							<ml:real>0.513883</ml:real>
+							<ml:real>-0.887869</ml:real>
+							<ml:real>-1.38368</ml:real>
+							<ml:real>-0.66118</ml:real>
+							<ml:real>-0.758437</ml:real>
+							<ml:real>1.37472</ml:real>
+							<ml:real>0.110664</ml:real>
+							<ml:real>-0.151195</ml:real>
+							<ml:real>0.456841</ml:real>
+							<ml:real>-0.671871</ml:real>
+							<ml:real>0.858375</ml:real>
+							<ml:real>-1.12808</ml:real>
+							<ml:real>-0.0569905</ml:real>
+							<ml:real>0.452741</ml:real>
+							<ml:real>0.628874</ml:real>
+							<ml:real>-0.516311</ml:real>
+							<ml:real>-0.815839</ml:real>
+							<ml:real>-1.17644</ml:real>
+							<ml:real>0.879587</ml:real>
+							<ml:real>-1.03758</ml:real>
+							<ml:real>1.20275</ml:real>
+							<ml:real>0.45986</ml:real>
+							<ml:real>-0.872634</ml:real>
+							<ml:real>2.01584</ml:real>
+							<ml:real>-1.28049</ml:real>
+							<ml:real>-0.291072</ml:real>
+							<ml:real>-1.18332</ml:real>
+							<ml:real>1.01742</ml:real>
+							<ml:real>0.81575</ml:real>
+							<ml:real>0.182246</ml:real>
+							<ml:real>1.18835</ml:real>
+							<ml:real>-0.583932</ml:real>
+							<ml:real>-0.555529</ml:real>
+							<ml:real>-0.375149</ml:real>
+							<ml:real>-0.722476</ml:real>
+							<ml:real>1.65088</ml:real>
+							<ml:real>0.135469</ml:real>
+							<ml:real>-0.475936</ml:real>
+						</ml:matrix>
+					</result>
+				</ml:eval>
+				<resultFormat>
+					<table item-idref="3"/>
+				</resultFormat>
+			</math>
+			<rendering item-idref="4"/>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/4yQwW7CMAyG7aZbS9etu3AhSOUZeIIdENph2iT2ACiUAkVUTF2ROPLm3W8n
+u+w0R3b+Ot/vRsmJiJGfyEy1QS228/W+c1+H9e7cta5PSGKMHGl74XqnLZog07b62Bzrqvet
+ld8omqGYMF+8hWr5yty1+V7q6FjZKfKNA+tjwCKe/r/7OzzpO1fV84XRIxvAkp+JLQ+imG0E
+U8kRWwNryYZtPEgnBkMDxB2Y2wuO7oURV6IMRCqMwCOZI/YMjNofwKg9B6P2R/0XxJMyEIUw
+AvvrFu+Xtu6ayp38g6R67VfklhosE14uC6/5J3IpPwAAAP//AwARvY6sxgEAAA==</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAKgAAAARCAYAAABJjucJAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOeSURBVGhD7VftjewgDExdKSj1pJo0
+k2Ly/Am2MUtyt6eXH4yEdAFjj+0B9pZrYuLFmAKdeDWmQCdejSnQiVfjkUDPfb2W7ZCvb+O8
+9nW5liUMjXfu1xrXaGxXxujYYK3helxb6mO51v0Um5wHrz/gaGPb+XUHLwrko/zR93pRmGOT
+/R2+zsdvYPPJ6+hsvhI3y1MB+YYYtwVK4kSSTdO/CS5GCYEJQMwaMqwDzn3jZB0OKsIn8VZB
+AiSOzc3ZOB4jjrVWdo727XYCxSeNIvQaF3Pm72/2gQ5zw1cAXFasZS8erA+pOJtengI6zLVv
+L7pBEXkz4u02onDuOyTIt09m2wgUgcUygvE2VhQjjhKf/NkDAnZGoOjfc0M/Yg97P+aMTfza
+Lcp8d+xt4vPY4AKAtaZehIRbg2jTy9PACLcKlJQLDTrqcxQD3xNoXxhj+GT4Joq3jF3Pbk+w
+ESHQzZAWPRGo8NZ5ZyNPNH+POOIcHpAYv/Iifxkv2EdzsF617OMhyK8rMHPHnlUuvI/76HOL
+6B5o4LHBHsyx3Vv909iAcxMPXzJrw87zPC3QN+chAjUJSuG48P6JvCdQRUjAjq6PmHS0iz69
+MAg2aRRCYpMLlH3rPImgxIFRuIw4YlgWqNa1CFuI/bqObi+v6xTz1r5hfMy/xs6gfImXOTh2
+Phd3FHUWL9rcA+aBe9obtPBoHT8r7E9gio3XfHPL+GZkN2gjLBixuLlAOV8r0LwpI47ISwUK
+oLqifW1av+EZfM4IJ8LYt9F3gnigOBb8LUHvCxRwQ0d3oDEHAvWJPRMoFzaKhUbXh29GK5K2
+WR7wpDh74RxElImP7Ey+twQKyH0ZgQLUNz55+p37zpDkTL2SOTwktk+xj/iTDfZrPBa374Pl
+S+tQr8Mc/j7fRHwhXmpzAxozCNQ4Sm4HKvTTSI8QmxGT6zRLJnr/0ccCRVGxgPzcXYFm/lse
+vKcK4kkd25xZZCpCjl/82b6V2qAPf9lY4D9Cxb3owPKjeCnfkHsar63PHWBM3NMItJyu8PuT
+Ete1j9F+RoiTqvGLOGzczqDns+y1vL3PBYrmc6yj8g17XCIjjuC/rEdBQF3UF9Y6+WnQQsSX
+DE/L9k7zF65oWNZDT0M+6lPFEddJ+OLL2tKa/pOUxKs2smkIjMv1+/DET/wlqggmGuCBl+JM
+gf434O04692AdFhvehGofUriMzDxd8CnbNa7AnXo61Fv0ImJ1+G6/gFl8akNVNynjAAAAABJ
+RU5ErkJggg==</item>
+		<item item-id="3" content-encoding="gzip">H4sIAAAAAAAA/+xXTUwTURCe3dJSoBVaoGqxWGtFtKJho4kimmoh0URoUgyJJwPtBtaULpSV
+QOKh8aAeMDEh8YwXPXjy5lGIMTExAY/GC3owMQYv6sVE6sybZdk2RvEvxsA033tv583Pe7PT
+t/M8ACAh+hDVYixjW2HkVbUJiBSEeySdHLykpg3BgRSiE5XiDsX1GaBQodyfxyenEsCu4FKm
+57CrVLxxIe02n6sUuRYg4wZwyKPQju5Y3l3D6tUeBVAgXoM6XjZcs0URfryAM7SuqkR/X/fY
+WUMdkYRtD8JlZ6Ak1AlRtzqWUoc0PecUE4dJO6OnmVcheMes/brGh0dP65O8vXOISmSkrA33
+IFoR1xDvEMvo7AT2R9kp+LlDU7JPRNNveTplGHlt8LKhsmgH0Fbs5O+IlDzXr8atgeNW38hx
+a7DiFlBuP8aJhq0crwDKbhPDQqDE0naxNQ+GLKGPDOoUJJ6oow0ie41DS+rE138G++uIGQSt
+uFgkaRRNZtVEVlNzhtCROGd4S6JF3cUF39KdB8FXUEYnwQErxSpw2Xhr2rwc2XxeKZJHpuIm
+/Vf0BbFiwyZtLEqBjj8DwtANOezzMFV+FHyXAuC0/vN0FlyFI1LE99I3UwBv/xNn0C4723vl
+3lzbC8mB40fmQZJA7+RXFe34T/km8oMs2fezXr0b0o9l1ku/4v9P0u/4pzDQOU7vhL6v9N2l
+M3/zLNgY5MTiqx0LiTdRzofqksywxpQidYjjiEbmhcxhBjSRPbWmtsPU0Wz6VPE9RHwolmbo
+LXbyjJoerGbDiGE8C7L4C0MXtkPYK6Z078TH18swiWn6PvU2OL90YcJu69NftN1Jzfnpp+3p
+Rd/dmzAbXXA+X62G3GWx+lb8OICiZkVgUQj4sS3BvyKxyiAXolSGyxKXwn1qXhvIXuzSxkez
+A1O9ekZl+aRQamIFM1l2lN8RQuYdoZnvCKGdXPM2o2yY7wjNu/iOEKa8ibC1sHAfT4K0mxkh
+YT1qGtnDRihPW9hIdC8baSEjrazTYhnZZzOyf003ZuoeYN0Y6baxaMzSPWibPGSbpOevAAAA
+//8DALHUMnV8DQAA</item>
+		<item item-id="4">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
+AABJRU5ErkJggg==</item>
+	</binaryContent>
+</worksheet>

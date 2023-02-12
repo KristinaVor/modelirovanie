@@ -1,0 +1,30 @@
+﻿  Экзамен.cpp
+c:\users\user\desktop\экзамен\экзамен\diffr.h(6): error C2084: функция "long double diff_sym(long double (__cdecl *)(long double),long double)" уже имеет текст реализации
+  c:\users\user\desktop\lesiv2.0\lesiv\function\function\diffr.h(5): note: см. предыдущее определение "diff_sym"
+c:\users\user\desktop\экзамен\экзамен\diffr.h(14): error C2084: функция "long double diff_pr(long double (__cdecl *)(long double),long double,long double)" уже имеет текст реализации
+  c:\users\user\desktop\lesiv2.0\lesiv\function\function\diffr.h(13): note: см. предыдущее определение "diff_pr"
+c:\users\user\desktop\экзамен\экзамен\diffr.h(20): error C2084: функция "long double diff_sl(long double (__cdecl *)(long double),long double,long double)" уже имеет текст реализации
+  c:\users\user\desktop\lesiv2.0\lesiv\function\function\diffr.h(19): note: см. предыдущее определение "diff_sl"
+c:\users\user\desktop\экзамен\экзамен\diffr.h(27): error C2084: функция "long double diff_koef(long double (__cdecl *)(long double),long double)" уже имеет текст реализации
+  c:\users\user\desktop\lesiv2.0\lesiv\function\function\diffr.h(26): note: см. предыдущее определение "diff_koef"
+c:\users\user\desktop\экзамен\экзамен\diffr.h(51): error C2995: T integ(T (__cdecl *)(T),T,T,T): шаблон функции уже определен
+  c:\users\user\desktop\lesiv2.0\lesiv\function\function\diffr.h(43): note:  см. объявление "integ"
+c:\users\user\desktop\экзамен\экзамен\diffr.h(63): error C2995: T integ_mod(T (__cdecl *)(T),T,T,T): шаблон функции уже определен
+  c:\users\user\desktop\lesiv2.0\lesiv\function\function\diffr.h(55): note:  см. объявление "integ_mod"
+c:\users\user\desktop\экзамен\экзамен\diffr.h(75): error C2995: T integ_sr(T (__cdecl *)(T),T,T,T): шаблон функции уже определен
+  c:\users\user\desktop\lesiv2.0\lesiv\function\function\diffr.h(67): note:  см. объявление "integ_sr"
+c:\users\user\desktop\экзамен\экзамен\any_dist.h(80): error C2953: any_dist: шаблон класса уже определен
+  c:\users\user\desktop\экзамен\экзамен\any_dist.h(11): note:  см. объявление "any_dist"
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(318): error C2065: integ: необъявленный идентификатор
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(318): error C2563: несоответствие в списке формальных параметров
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(318): error C2568: /: не удается разрешить перегрузку функции
+  c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(318): note: может быть "T integ(T (__cdecl *)(T),T,T,T)"
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(334): error C2065: integ_sr: необъявленный идентификатор
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(334): error C2563: несоответствие в списке формальных параметров
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(339): warning C4244: =: преобразование "long double" в "int", возможна потеря данных
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(340): warning C4244: =: преобразование "long double" в "int", возможна потеря данных
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(350): warning C4552: "+": результат выражения не используется
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(354): warning C4552: "+": результат выражения не используется
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(359): error C2514: any_dist: не имеет конструкторов
+  c:\users\user\desktop\экзамен\экзамен\any_dist.h(11): note:  см. объявление "any_dist"
+c:\users\user\desktop\экзамен\экзамен\экзамен.cpp(362): warning C4552: "<<": результат выражения не используется
